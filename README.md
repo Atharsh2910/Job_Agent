@@ -1,4 +1,4 @@
-                                                                       AI Research Agent <br>
+    AI Research Agent 
 
 This project is an AI-powered research agent designed to provide a comprehensive, summarized report on a company and a specific job role. The application features a simple web interface built with Streamlit, where users can input a company name and a job role. In the backend, the agent uses a multi-step process to gather information from the web and an LLM to synthesize the findings into a clear, structured report. This project demonstrates API integration, agentic workflow design, and data summarization.
 
@@ -25,6 +25,10 @@ Initialization and Run:<br>
    cd your-repository-name<br>
    
 3. pip install -r requirements.txt<br>
+
+
+I have deployed this in Render. <br>
+The URL is https://ai-job-agent-sbhc.onrender.com <br>
 
 4. Creating .env file with following content:<br>
   GOOGLE_API_KEY="your_google_api_key_here"
